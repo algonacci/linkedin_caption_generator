@@ -15,5 +15,5 @@ python train.py --data linkedin.txt
 
 ### Generate a new caption
 ```
-python main.py"
+python main.py
 ```
