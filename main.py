@@ -40,7 +40,7 @@ for line in corpus:
 
 max_sequence_len = max([len(x) for x in input_sequences])
 
-special_words = ["object", "profession", "subject", "institution"]
+special_words = ["object", "profession", "subject", "institution", "person"]
 
 for _ in range(next_words):
     token_list = tokenizer.texts_to_sequences([seed_text])[0]
